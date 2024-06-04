@@ -10,3 +10,15 @@ for(let i =0;i<str.length; i++){
     }
 }
 console.log(resAr);
+
+
+//multilevel inheritance example
+class a{
+
+}
+class b extends a {
+
+}
+class c extends b{
+
+}
