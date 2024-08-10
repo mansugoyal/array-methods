@@ -17,3 +17,13 @@ for(let i = 5; i>=1; i--){
     }
     console.log(num);
 }
+
+
+//simple numeric pattern
+for(let i = 5; i>=1; i--){
+    let num = '';
+    for(let j = i; j>=1; j--){
+        num += ' *';
+    }
+    console.log(num);
+}
